@@ -1,0 +1,227 @@
+# 🔐 Credentials and Security
+.internal/GITHUB_CREDENTIALS.md
+.internal/
+*.token
+*.key
+*.pem
+config.local.*
+secrets.json
+
+# 🎬 Video and Media Production
+*.mov
+*.avi
+*.mp4
+*.mkv
+*.flv
+*.wmv
+*.webm
+*.m4v
+temp_videos/
+render_cache/
+*.log
+
+# 📸 High-Resolution Assets (Development)
+raw_screenshots/
+4k_assets/
+uncompressed/
+*.psd
+*.ai
+*.sketch
+*.figma
+*.xcf
+
+# 🎮 Game Files and Captures
+game_saves/
+recordings/
+*.replay
+*.dem
+*.rec
+capture_buffer/
+streaming_assets/
+
+# 🛠️ Development Tools
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 📝 Documentation Build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🌐 Web Development
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+public/build/
+*.tsbuildinfo
+
+# 📊 Analytics and Tracking
+.analytics/
+tracking/
+stats.json
+metrics.log
+
+# 🔄 Temporary Files
+*.tmp
+*.temp
+temp/
+.tmp/
+scratch/
+draft/
+WIP/
+
+# 🗂️ Archives and Backups
+*.zip
+*.tar.gz
+*.rar
+*.7z
+backup/
+archive/
+old_versions/
+
+# 📱 Mobile Development
+.expo/
+.expo-shared/
+*.mobileprovision
+*.p8
+*.p12
+*.cer
+
+# 🧪 Testing
+coverage/
+.nyc_output/
+test-results/
+screenshots/test/
+*.lcov
+
+# 📈 Performance
+*.cpuprofile
+*.heapprofile
+*.prof
+
+# 🔧 Local Configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.local.json
+
+# 🎯 Game-Specific
+save_files/
+user_profiles/
+achievements/
+progress/
+settings.cfg
+
+# 📋 Editor Files
+*.sublime-project
+*.sublime-workspace
+.vimrc.local
+.emacs.desktop
+.emacs.desktop.lock
+
+# 🏗️ Build Artifacts
+*.o
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+*.app
+
+# 📚 Documentation Artifacts
+*.pdf.tmp
+*.html.tmp
+generated_docs/
+auto_generated/
+
+# 🌍 Localization
+*.mo
+*.pot
+translations/working/
+locale/temp/
+
+# 📊 Data Files
+*.sqlite
+*.db
+*.database
+data/local/
+cache/
+
+# 🎨 Design Assets Working Files
+*.blend1
+*.blend2
+*.mb
+*.ma
+autosave_*
+incrementalSave_*
+
+# 🚀 Deployment
+.vercel/
+.netlify/
+deploy/
+staging/
+
+# 📝 Notes and Drafts
+notes.txt
+todo.txt
+IDEAS.md
+DRAFT*.md
+scratch.md
+
+# 🔍 Search Index
+search_index/
+.lunr/
+algolia.json
+
+# 📷 Screenshot Automation
+screenshot_tool/
+auto_capture/
+batch_process/
+
+# 🎵 Audio Assets
+*.wav
+*.aiff
+*.flac
+raw_audio/
+audio_cache/
+
+# 🎪 Demo and Presentation
+demo/
+presentation/
+slides/
+*.pptx
+*.key
+
+# 📦 Package Managers
+.pnpm-store/
+.yarn/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 🌟 Community Content (Temporary)
+user_submissions/temp/
+pending_review/
+moderation_queue/
+
+# 🔔 Notifications
+notifications.json
+alerts.log
+webhook_logs/ .internal/
+UNIVERSAL_SEO_TOOLKIT.md

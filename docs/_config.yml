@@ -1,0 +1,288 @@
+# 🎮 Black Myth: Wukong Combat Guide - Jekyll Configuration
+
+# Site Settings
+title: "Black Myth: Wukong Combat Guide"
+description: "Complete combat guide for Black Myth: Wukong. Master boss strategies, transformation techniques, parry timing, and advanced combat mechanics. Free comprehensive guide for all platforms."
+baseurl: ""
+url: "https://black-myth-wukong-combat-secrets.github.io"
+repository: "Black-Myth-Wukong-Combat-Secrets/black-myth-wukong-combat-guide"
+
+# Site Information
+author:
+  name: "Black Myth Wukong Combat Secrets Team"
+  email: "guides@blackmythwukong.com"
+  url: "https://github.com/Black-Myth-Wukong-Combat-Secrets"
+
+# SEO & Social
+lang: en_US
+locale: en_US
+timezone: UTC
+
+# SEO Keywords
+keywords: 
+  - "black myth wukong guide"
+  - "black myth boss guide"
+  - "wukong combat tactics"
+  - "black myth transformation guide"
+  - "wukong parry timing"
+  - "black myth secrets"
+  - "black myth strategy"
+  - "monkey king combat guide"
+  - "black myth wukong walkthrough"
+  - "wukong gameplay tips"
+
+# Social Media
+social:
+  name: "Black Myth: Wukong Combat Guide"
+  links:
+    - "https://github.com/Black-Myth-Wukong-Combat-Secrets/black-myth-wukong-combat-guide"
+    - "https://discord.gg/blackmythwukong"
+
+# Theme & Plugins
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Plugin Configuration
+feed:
+  path: atom.xml
+  excerpt_only: true
+
+sitemap:
+  priority: 1.0
+  changefreq: 'daily'
+  lastmod: 2024-12-21
+
+seo_tag:
+  image: /assets/images/og-image.png
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  bosses:
+    output: true
+    permalink: /bosses/:name/
+  mechanics:
+    output: true
+    permalink: /mechanics/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Combat Guide Team"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+  - scope:
+      path: ""
+      type: "bosses"
+    values:
+      layout: "boss"
+  - scope:
+      path: ""
+      type: "mechanics"
+    values:
+      layout: "mechanic"
+
+# Markdown Configuration
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Syntax Highlighting
+highlighter: rouge
+rouge:
+  css_class: 'highlight'
+
+# Sass Configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Include/Exclude
+include:
+  - _pages
+  - .htaccess
+  - .well-known
+
+exclude:
+  - .internal/
+  - UNIVERSAL_SEO_TOOLKIT.md
+  - node_modules/
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - gulpfile.js
+  - _drafts/
+  - tmp/
+  - .git/
+  - .github/
+  - README.md
+  - LICENSE
+  - CONTRIBUTING.md
+  - CHANGELOG.md
+  - CODE_OF_CONDUCT.md
+  - SECURITY.md
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Archive
+archive:
+  type: yearly
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+
+# Reading Files
+safe: true
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Serving
+detach: false
+port: 4000
+host: 127.0.0.1
+baseurl: ""
+show_drafts: null
+limit_posts: 0
+future: false
+unpublished: false
+
+# Backwards-compatibility
+relative_permalinks: false
+
+# Custom Variables
+version: "1.0.0"
+game:
+  name: "Black Myth: Wukong"
+  developer: "Game Science Interactive"
+  platforms: ["PC", "PlayStation 5", "Xbox Series X/S"]
+  release_year: 2024
+
+contact:
+  email: "guides@blackmythwukong.com"
+  discord: "https://discord.gg/blackmythwukong"
+  github: "https://github.com/Black-Myth-Wukong-Combat-Secrets/black-myth-wukong-combat-guide"
+
+analytics:
+  google_analytics: "G-XXXXXXXXXX"  # Replace with actual tracking ID
+  
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Guides"
+    url: "/guides/"
+  - title: "Boss Directory"
+    url: "/bosses/"
+  - title: "Combat Mechanics"
+    url: "/mechanics/"
+  - title: "Community"
+    url: "/community/"
+  - title: "Contribute"
+    url: "/contribute/"
+
+# Footer Links
+footer_links:
+  - title: "GitHub"
+    url: "https://github.com/Black-Myth-Wukong-Combat-Secrets/black-myth-wukong-combat-guide"
+    icon: "github"
+  - title: "Discord"
+    url: "https://discord.gg/blackmythwukong"
+    icon: "discord"
+  - title: "Discussions"
+    url: "https://github.com/Black-Myth-Wukong-Combat-Secrets/black-myth-wukong-combat-guide/discussions"
+    icon: "comments"
+
+# Content Organization
+categories:
+  - beginner
+  - intermediate
+  - advanced
+  - expert
+  - boss-guides
+  - mechanics
+  - secrets
+  - speedrun
+  - achievements
+
+tags:
+  - combat
+  - bosses
+  - transformations
+  - parry
+  - combos
+  - strategy
+  - tactics
+  - techniques
+  - secrets
+  - unlocks
+  - progression
+  - builds
+  - optimization
+
+# Liquid Options
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+# Build Settings
+future: true
+profile: false
+safe: true
+source: .
+destination: ./_site
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+collections_dir: .
+
+keep_files:
+  - .git
+  - .svn
+
+# GitHub Pages Settings
+github: [metadata]
+github_repository_url: "https://github.com/Black-Myth-Wukong-Combat-Secrets/black-myth-wukong-combat-guide" 
